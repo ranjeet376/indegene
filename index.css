@@ -1,0 +1,270 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.logo{
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.navbar-right{
+    left: 1000px;
+    top: 36px;
+    position: absolute;
+    width: 11px;
+    height: 20px;
+    margin-top: -12px;
+    display: inline-block;
+    display: inline-flex;
+}
+.icon{
+    display:inline-flex;
+    
+}
+.fa-twitter, .fa-facebook, .fa-linkedin{
+    margin: 0 5px 0 5px;
+    width: 24px;
+    height: 20px;
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 15px;
+    margin-top: -10px;
+    background-color: #B59877;
+    color: white;
+}
+.fa-bars{
+    border: none;
+    background-color: transparent;
+    color: darkgray;
+}
+.column1{
+    display:inline-flex;   
+}
+.menu{
+    margin-top: 5px;
+    margin-right: 4px;
+    color: darkgray;
+}
+/* -------X-----NAVBAR----X------ */
+.afterNavbar{
+    text-align: center;
+    background-color: #CCCCCC;
+    
+    height: 350px;
+}
+.afterNavbar .text{
+    padding-top: 150px;
+    color: white;
+}
+.btn{
+    height: 50px;
+    width: 180px;
+    border: none;
+}
+.btn-left{
+    background-color: #B59877;
+    color: white;
+}
+.text .h3{
+    margin-top: 32px;
+}
+.button{
+    margin-top: 20px;
+}
+/* -----------X-------afterNavbar------------X----------- */
+.log{
+    background-image: url("image/bg_2.png");
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 500px;  
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
+}
+/* ----------X--------transparent-Image--------X---------- */
+.text-area{
+    text-align: center;
+    margin-top: 50px;
+}
+.Services{
+    margin-top: 20px;
+}
+.card{
+    display: inline-flex;
+}
+.card1 h3{
+    padding-right: 0% !important;
+}
+.card1 .Customer{
+    padding-right: 0% !important;
+}
+.para{
+    padding-left: 0px;
+}
+.text-area .card{
+    margin:0px 200px 0px 200px;
+    margin-top: 50px;
+}
+.logo-Layer{
+    background-color: #E9A3A6;
+    border-radius: 50%;
+    margin: 10px;
+}
+/* ------------X-------text-area---------X--------- */
+.big-image{
+    
+        background-image: url("image/asphalt18676671920.png");
+        background-color: #cccccc; /* Used if the image is unavailable */
+        height: 900px;
+        
+        /* background-position: center; Center the image */
+         background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover;  
+    
+}
+.big-text{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 80px;
+}
+.user-menu .fa-user{
+    color: gray;
+    font-size: 140px;
+    border: 1px solid gray;
+    border-radius: 50%;
+}
+.user-card{
+    display: inline-flex;
+    padding-top: 55px;
+    margin-left: 30px;
+    
+}
+.user-menu{
+    padding:0px 60px 0px 60px
+}
+.user-menu .fa-user, .post{
+    text-align: center !important;
+}
+.user-menu:hover{
+    color: white;
+}
+.user-menu p{
+    color: gray;
+    font-size: 22px;
+    padding: 25px 0px 25px 0px;
+}
+.user-menu p:hover{
+    color: white;
+}
+
+/* ---------X--------big-image--------X------------ */
+.blog-date{
+    display: flex;
+    flex-direction: column;
+    width: 80px;
+    height: 80px;
+    background-color: #C8B7A5;
+    padding: 0px;
+    padding-left: 20px;
+}
+.blog-text{
+    height: 245px;
+    width: 200px;
+    background-color: white;
+    padding-right: 53px;
+}
+.blog-time{
+    background-color: #EBE2D9;
+}
+.blog-time .day{
+    font-size: 50px;
+    color: #B59877;
+
+}
+.blog-time .month{
+    color: #EBE2D9;
+    font-size: 20px;
+}
+.blog-time .blog-date {
+    padding-top: 20px ;
+}
+.blog-main{
+    display: inline-flex;
+    margin-top: -8px;
+}
+.recent-blog{
+    background-color: #F8F9FB;
+    text-align: center;
+    padding: 60px;
+    width: 100%;
+}
+.recent-blog .blog-card-main{
+    display: inline-flex;
+}
+.blog-header{
+    font-size: 30px;
+}
+.blog-title{
+    font-size: 17px;
+    padding-top: 25px;
+    padding-bottom: 40px;
+    color: #B59877;
+}
+.blog-card{
+    padding: 0px 10px 0px 10px;
+}
+.blog-text{
+    padding-top: 30px;
+    padding-left: 10px;
+    text-align: left;
+    
+}
+.blog-text-content{
+    color: gray;
+}
+.blog-text-header{
+    font-size: 20px;
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+/* ---------X-----------blog-------------X------------ */
+
+.bg-black{
+    text-align: center;
+    background-color: black;
+    height: 450px;
+}
+.bg-black-header{
+    color: white;
+    font-size: 40px;
+}
+.fa-copyright{
+    color: white;
+    margin-top: 40px;
+    font-size: 3px;
+    
+}
+.bg-black-space{
+    word-spacing: 20px;
+}
+.bg-black-content{
+    padding-top: 100px;
+}
+.bg-black-input{
+    margin-top: 30px;
+    height: 55px;
+    width: 300px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+    color: black;
+}
+.bg-black-btn{
+    height: 55px;
+    width: 100px;
+    background-color:  #B59877;
+    border: none;
+    color: white;
+    margin-left: -4px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
